@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TNO.MainPage"
+             >
+    <ContentPage 
+        BackgroundColor="#1B2838">
+        <ScrollView>
+            <StackLayout>
+            
+                <Image x:Name="top_img1" Aspect="AspectFit"
+                ></Image>
+                <Image x:Name="desc" Aspect="AspectFit"
+                
+                   
+                ></Image>
+                <Label
+                    Text="World War II has been over for twenty years, but its legacy still lives on. The German Reich reigns supreme from the Atlantic sea to the once great city of Moscow, ruling Europe with an iron fist. Thousands live and die everyday under German tyranny, yearning for a freedom that may never come.&#10;&#10;But all is not well in the Reich.&#10;&#10;Hitler lays on his deathbed even as the first German raumsonaut lands on the moon, and already the vultures pick at his corpse. Albert Speer, Martin Bormann, Hermann Göring and Reinhard Heydrich each prepare to take power in the Reich, and the world waits with baited breath for the storm that is surely coming. Outside of the Reichstag in the megacity of Germania, partisans prepare for their final struggle, and Heinrich Himmler plots to bring the world to the edge from his spartanist utopia in the Ordenstaat of Burgundy.&#10;&#10;Across the seas, the United States gathers allies to prevent the fall of democracy in the world, struggling to contain its own politics long enough to tear up the treaties that had ended the Second World War.&#10;&#10;In Asia, the Japanese Empire groans under the weight of rivals within as well as without, as a hundred different cultures struggle and begin to cooperate in the goal of finally overthrowing their slaveholder.&#10;&#10;In the Mediterraenan, an old alliance feuds with itself. A reformer in Italy seeks to create a hotbed of democracy in Europe as an aging Franco fights to keep control of Iberia.&#10;&#10;"
+                
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+               
+                ></Label>
+                <Label
+                    Text="The world teeters in a careful balance. Will it survive to see a new millennium, or is this the beginning of the end?
+"
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                
+                ></Label>
+                <Label
+                    Text="&#10;The year is 1962, and the world sits on the edge of destruction.&#10;"
+                    TextColor="#4B8BB1"
+                    FontSize="Medium"
+                
+                    ></Label>
+                <Image x:Name="features"></Image>
+                <Label
+                    Text="After years of development and two gameplay demos, The New Order: Last Days of Europe has finally been released! This mod contains the following features, among dozens of other secrets hidden throughout the game:&#10;
+"
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                
+                ></Label>
+                <Label
+                    Text="  -   Ten years or more of playable content for three German    candidates in the civil war, Japan, China, England, Italy and the   Iberian Union, Himmler's Burgundy, the United States of America and many Russian warlords."
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+                <Label
+                    Text="  -   Five years or more of playable content for England. Yunnan, Indonesia, much of the German Unity-Pakt, German colonies in Africa, South Africa, as well as Ireland, Wales, Scotland, and some of the Italian colonies in Africa and the Middle East."
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+                <Label
+                    Text="  -   Engage in economics that change based on your actions."
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+                <Label
+                    Text="  -   A completely new interface for the Cold War aesthetic."
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+                <Label
+                    Text="  -   Thousands of events written to the highest standards in Hearts of Iron writing."
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+                <Label
+                    Text="  -   A fully reworked tech tree."
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+                <Label
+                    Text="  -   New ideologies!"
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+                <Label
+                    Text="  -   An entirely new law and politics system based on Victoria 2."
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+                <Label
+                    Text="  -   An entirely new map, built for increased detail as well as a dystopian aesthetic."
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+                <Label
+                    Text="  -   Thousands of unique focus icons, event pictures, tech icons, and more."
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+                <Label
+                    Text="  -   New GUIs and gameplay features for almost every playable nation, ensuring no one feels alike."
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+                <Label
+                    Text="  -   Thousands of decisions"
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+                <Label
+                    Text="  -   The ability to wage nuclear war, and witness the post-apocalypse."
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+                <Label
+                    Text="  -   Hundreds of secrets to be discovered."
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+                <Label
+                    Text="  -   And so much more!"
+                    TextColor="#ACB2B8"
+                    FontSize="Small"
+                    ></Label>
+
+
+
+            </StackLayout>
+        </ScrollView>
+
+
+
+
+
+    </ContentPage>
+    <ContentPage
+        BackgroundColor="#1B2838">
+        <RelativeLayout>
+
+            <Image x:Name="top_img2" Aspect="AspectFit"
+                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.0}"
+                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=-0.52}"
+                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1.0}"
+                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1.1}"
+                       
+                   
+                  
+                   
+
+                   
+                ></Image>
+
+        </RelativeLayout>
+
+
+    </ContentPage>
+    <ContentPage
+        BackgroundColor="#1B2838">
+        <RelativeLayout>
+
+            <Image x:Name="top_img3" Aspect="AspectFit"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.0}"
+                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=-0.52}"
+                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1.0}"
+                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1.1}"
+                       
+                   
+                  
+                   
+
+                   
+                ></Image>
+
+        </RelativeLayout>
+
+
+    </ContentPage>
+
+    
+</CarouselPage>
