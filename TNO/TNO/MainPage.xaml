@@ -34,7 +34,7 @@
                     FontSize="Medium"
                 
                     ></Label>
-                <Image x:Name="features"></Image>
+                <Image x:Name="features" Aspect="AspectFit"></Image>
                 <Label
                     Text="After years of development and two gameplay demos, The New Order: Last Days of Europe has finally been released! This mod contains the following features, among dozens of other secrets hidden throughout the game:&#10;
 "
@@ -131,19 +131,47 @@
     <ContentPage
         BackgroundColor="#1B2838">
         <RelativeLayout>
+            <Button
+                x:Name="next"
+                Clicked="next_Clicked"
+                Text="->"
+                TextColor="#ACB2B8"
+                FontAttributes="Bold"
+                FontSize="Header"
+                BackgroundColor="Transparent"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.7}"
+                RelativeLayout.YConstraint="{ConstraintExpression Property=Height, Factor=0.7}"
+                RelativeLayout.WidthConstraint="150"
+                RelativeLayout.HeightConstraint="150"
+               
+                
+                ></Button>
+            <Button
+                x:Name="previous"
+                Clicked="previous_Clicked"
+                Text="&lt;-"
+                TextColor="#ACB2B8"
+                FontAttributes="Bold"
+                FontSize="Header"
+                BackgroundColor="Transparent"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=-0.07}"
+                RelativeLayout.YConstraint="{ConstraintExpression Property=Height, Factor=0.7}"
+                RelativeLayout.WidthConstraint="150"
+                RelativeLayout.HeightConstraint="150"
+               
+                
+                ></Button>
+            <Image  x:Name="galery" Aspect="AspectFit"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.0}"
+                RelativeLayout.YConstraint="{ConstraintExpression Property=Height, Factor=0.0}"
+                RelativeLayout.WidthConstraint="500"
+                RelativeLayout.HeightConstraint="500"
+               
+                    ></Image>
+            
+            
 
-            <Image x:Name="top_img2" Aspect="AspectFit"
-                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.0}"
-                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=-0.52}"
-                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1.0}"
-                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1.1}"
-                       
-                   
-                  
-                   
-
-                   
-                ></Image>
+           
 
         </RelativeLayout>
 
@@ -151,22 +179,84 @@
     </ContentPage>
     <ContentPage
         BackgroundColor="#1B2838">
-        <RelativeLayout>
-
-            <Image x:Name="top_img3" Aspect="AspectFit"
-                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.0}"
-                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=-0.52}"
-                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1.0}"
-                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1.1}"
-                       
-                   
-                  
-                   
-
-                   
+        <StackLayout>
+            <Image x:Name="Extras"
                 ></Image>
+            <Label
+                    Text="Bugs"
+                    TextColor="#4B8BB1"
+                    FontSize="Medium"
+                
+                    ></Label>
+            <Label
+                Text="While we strove to polish the release, there is no doubt there are still plenty of bugs waiting to be discovered. Please report any on our Discord here: https://discord.gg/NUmjGny, or on the Steam discussion pages."
+                TextColor="#ACB2B8"
+                FontSize="Small"
+                ></Label>
+            <Label
+                Text="Please contain all bug reports to that link. The mod can not be downloaded from there currently, but this may become possible in the future."
+                TextColor="#ACB2B8"
+                FontSize="Small"></Label>
+            <Label
+                    Text="Discord"
+                    TextColor="#4B8BB1"
+                    FontSize="Medium"
+                
+                    ></Label>
+            <Label
+                Text="Our Discord can be found here: https://discord.gg/NUmjGny"
+                TextColor="#ACB2B8"
+                FontSize="Small"></Label>
+            <Label
+                Text="Please read our rules and enjoy our community of over 10,000 people!"
+                TextColor="#ACB2B8"
+                FontSize="Small"></Label>
+            <Label
+                    Text="TV Tropes"
+                    TextColor="#4B8BB1"
+                    FontSize="Medium"
+                
+                    ></Label>
+            <Label
+                Text="We have possibly the largest TV Tropes page for any game mod out there! Find it here: https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/TheNewOrderLastDaysofEurope"
+                TextColor="#ACB2B8"
+                FontSize="Small"></Label>
+            <Label
+                    Text="Reddit"
+                    TextColor="#4B8BB1"
+                    FontSize="Medium"
+                
+                    ></Label>
+            <Label
+                Text="Our Reddit can likewise be found at: https://www.reddit.com/r/TNOmod/"
+                TextColor="#ACB2B8"
+                FontSize="Small"></Label>
+            <Label
+                    Text="Other Media"
+                    TextColor="#4B8BB1"
+                    FontSize="Medium"
+                
+                    ></Label>
+            <Label
+                Text="Our ModDB is rarely updated and can be found here: https://www.moddb.com/mods/a-new-order-last-days-of-europe"
+                TextColor="#ACB2B8"
+                FontSize="Small"></Label>
+            <Label
+                Text="Our Alternatehistory.com page can be found here: https://www.alternatehistory.com/forum/threads/the-new-order-last-days-of-europe-an-axis-victory-cold-war-mod-for-hoiiv.430817/"
+                TextColor="#ACB2B8"
+                FontSize="Small"></Label>
+            <Label
+                Text="Our ParadoxPlaza thread can be found here: https://forum.paradoxplaza.com/forum/index.php?threads/the-new-order-last-days-of-europe.1054382/"
+                TextColor="#ACB2B8"
+                FontSize="Small"></Label>
+            <Label
+                Text="We are regularly posted about on SpaceBattles.com and SufficientVelocity.com, in the following threads respectively: https://forums.spacebattles.com/threads/paradox-grand-strategy-crusader-kings-europa-universalis-etc.304167/ and https://forums.sufficientvelocity.com/threads/the-hearts-of-iron-megathread.15402/."
+                TextColor="#ACB2B8"
+                FontSize="Small"></Label>
 
-        </RelativeLayout>
+
+
+        </StackLayout>
 
 
     </ContentPage>

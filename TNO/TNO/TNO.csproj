@@ -11,16 +11,32 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="galerija\1.jpg" />
+    <None Remove="galerija\2.jpg" />
+    <None Remove="galerija\3.jpg" />
+    <None Remove="galerija\4.jpg" />
+    <None Remove="galerija\5.jpg" />
+    <None Remove="galerija\6.jpg" />
     <None Remove="images\Screenshot_107.png" />
     <None Remove="slike\description.png" />
+    <None Remove="slike\extras.png" />
     <None Remove="slike\fea.png" />
+    <None Remove="slike\NEXT.png" />
     <None Remove="slike\TOP1.png" />
     <None Remove="slike\top_1.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="galerija\1.jpg" />
+    <EmbeddedResource Include="galerija\2.jpg" />
+    <EmbeddedResource Include="galerija\3.jpg" />
+    <EmbeddedResource Include="galerija\4.jpg" />
+    <EmbeddedResource Include="galerija\5.jpg" />
+    <EmbeddedResource Include="galerija\6.jpg" />
     <EmbeddedResource Include="slike\description.png" />
+    <EmbeddedResource Include="slike\extras.png" />
     <EmbeddedResource Include="slike\fea.png" />
+    <EmbeddedResource Include="slike\NEXT.png" />
     <EmbeddedResource Include="slike\TOP1.png" />
     <EmbeddedResource Include="slike\top_1.png" />
   </ItemGroup>
